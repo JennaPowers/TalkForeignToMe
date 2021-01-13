@@ -32,7 +32,8 @@ body {
 }
 
 .banner h1 {
-    font-family: "Biko";
+/*     font-family: "Biko"; */
+    font-family: "Verdana:;
     font-size: 40px;
     letter-spacing: .2em;
     color: #0d94d8;
