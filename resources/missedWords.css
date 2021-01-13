@@ -1,0 +1,64 @@
+/* Typography */
+
+@font-face {
+    font-family: "Biko";
+    src: url("/Users/jennapowers/Library/Fonts/Biko_Bold.otf");
+}
+@font-face {
+    font-family: "Biko-Regular";
+    src: url("/Users/jennapowers/Library/Fonts/Biko_Regular.otf");
+}
+@font-face {
+    font-family: "Biko-Black";
+    src: url("/Users/jennapowers/Library/Fonts/Biko_Black.otf");
+}
+
+/* Entire page */
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* Iphone */
+
+.iphone {
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+    overflow: scroll;
+}
+
+h2 {
+    font-family: Biko;
+    font-size: 30px;
+    position: absolute;
+    top: 70;
+    left: 0;
+    right: 0;
+    bottom: 100;
+}
+
+#listOfWords {
+    font-family: Biko-Regular;
+    font-size: 30px;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+
+#elements {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 350px;
+    text-align:left;
+}
+
+.word {
+    margin-right: 60px;
+    margin-bottom: 0.3em;   
+    /* background-color: #cbdbeb; */
+    /* background-color: white; */
+    border: 5px solid white;
+    
+}

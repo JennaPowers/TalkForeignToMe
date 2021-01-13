@@ -1,0 +1,172 @@
+/* Typography */
+
+@font-face {
+    font-family: "Biko";
+    src: url("/Users/jennapowers/Library/Fonts/Biko_Bold.otf");
+}
+@font-face {
+    font-family: "Biko-Regular";
+    src: url("/Users/jennapowers/Library/Fonts/Biko_Regular.otf");
+}
+@font-face {
+    font-family: "Biko-Black";
+    src: url("/Users/jennapowers/Library/Fonts/Biko_Black.otf");
+}
+
+/* Entire page */
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* Iphone */
+
+.iphone {
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100;
+}
+
+.question p {
+    font-family: Biko;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.question h2 {
+    font-family: Biko-Regular;
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.question input {
+    margin-bottom: 30px;
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 10%;
+    font-size: 20px;
+
+}
+
+.question button {
+    background-color: #79ed81;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15%;
+    text-align: center;
+    position: absolute;
+    top: 380px;
+}
+
+#checkButton:hover {
+    /* background-color: #79e182; */
+    font-size: 18px;
+}
+
+#check {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    right: 400px;
+    top: 100px;
+    display: none;
+}
+
+#x {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    right: 400px;
+    top: 100px;
+    display: none;
+}
+
+#next-btn {
+    background-color: #cccac4;
+    color: white;
+    padding: 8px 18px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15%;
+    text-align: center;
+    position: absolute;
+    top: 450px;
+    right: 400px;
+}
+
+#next-btn:hover {
+    /* background-color: #bdbbb5; */
+    font-size: 18px;
+}
+
+#solution {
+    position: absolute;
+    top: 450;
+    left: 0;
+    right: 0;
+    bottom: 100;
+    font-family: Biko;
+    font-size: 22px;
+    text-align: center;
+    display: none;
+}
+
+#exit {
+    background-color: #cccac4;
+    color: white;
+    padding: 6px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15%;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    left: 330px;
+}
+
+#exit:hover {
+    font-size: 18px;
+}
+
+#bye {
+    font-size: 45px;
+    text-align: center;
+    font-family: Biko;
+    color: black;
+    position: absolute;
+    top: 200;
+    left: 0;
+    right: 0;
+    bottom: 100;
+    display: none;
+}
+
+#missedWords {
+    font-size: 30px;
+    text-align: center;
+    font-family: Biko;
+    color: black;
+    position: absolute;
+    top: 400;
+    left: 0;
+    right: 0;
+    bottom: 100;
+    text-decoration: none;
+    display: none;
+}

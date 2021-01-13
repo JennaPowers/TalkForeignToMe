@@ -1,0 +1,25 @@
+<!-- Iphone display -->
+<head>
+    <link href="./resources/languages.css" rel="stylesheet" type="text/css">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script type="text/javascript" src="./french.js"></script>
+</head>
+<body>
+    <div class="iphone">
+        <img src="./resources/images/Screen Shot 2020-12-18 at 4.17.43 PM.png">
+        <div class="question" id="question">
+            <p id="prompt">Type in the English translation...</p>
+            <h2 id="word">femme</h2>
+            <input type="text" id="answer">
+            <button onclick="checkAnswer()" type="button" id="checkButton">Check</button>
+        </div>
+        <img src="./resources/images/1200px-Checkmark_green.svg.png" id="check">
+        <img src="./resources/images/1200px-Red_x.svg.png" id="x">
+        <button onclick="handleNextButton()" type="text" id="next-btn">Next</button>
+        <p id="solution"></p>
+        <button onclick="displayResults()" type="text" id="exit">X</button>
+        <p id="bye"></p>
+        <a href="./frenchMW.html" id="missedWords">See words you missed -></a>
+     </div>
+    </div>
+</body>
