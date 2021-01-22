@@ -32,8 +32,7 @@ body {
 }
 
 .banner h1 {
-/*     font-family: "Biko"; */
-    font-family: "Verdana:;
+    font-family: "Biko";
     font-size: 40px;
     letter-spacing: .2em;
     color: #0d94d8;
@@ -47,7 +46,7 @@ body {
 }
 
 .below-banner {
-    font-family: Biko;
+    font-family: "Biko";
     text-align: center;
     color: black;
     margin-top: 20px;
