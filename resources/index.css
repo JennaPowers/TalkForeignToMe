@@ -2,15 +2,11 @@
 
 @font-face {
     font-family: "Biko";
-    src: url('./fonts/Biko_Bold.otf') format('opentype');
+    src: url('./fonts/Biko-2/Biko_Bold.otf') format('opentype');
 }
 @font-face {
     font-family: "Biko-Regular";
-    src: url("/Users/jennapowers/Library/Fonts/Biko_Regular.otf");
-}
-@font-face {
-    font-family: "Biko-Black";
-    src: url("/Users/jennapowers/Library/Fonts/Biko_Black.otf");
+    src: url('./fonts/Biko-2/Biko_Regular.otf') format('opentype');
 }
 
 /* Entire page */
@@ -76,7 +72,6 @@ body {
 }
 
 .russian, .korean, .french, .italian, .japanese {
-    border: 2px solid black;
     border-radius: 50%;
     height: 150px;
     width: 150px;
