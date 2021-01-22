@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Biko";
-    src: url("/Users/jennapowers/Library/Fonts/Biko_Bold.otf");
+    src: url('./fonts/Biko_Bold.otf') format('opentype');
 }
 @font-face {
     font-family: "Biko-Regular";
